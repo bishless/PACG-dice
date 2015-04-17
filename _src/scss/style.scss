@@ -24,6 +24,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.white-trans { color: rgba(255,255,255,0.8); }
 .bg-white-trans { background-color: rgba(255,255,255,0.6); }
 .maroon-dark { color: $maroon-dark; }
 .bg-maroon-dark { background-color: $maroon-dark; }
@@ -55,6 +56,10 @@ a:active {
 .px0 {
 	padding-left: .125rem;
 	padding-right: .125rem;
+}
+
+button:hover {
+	color: white;
 }
 
 .roll-results td {
