@@ -2,3 +2,4 @@ node_modules/
 _fw/
 css/
 js/
+!_src/js/
