@@ -1,0 +1,12 @@
+
+function incrVal( id ) {
+	if (document.getElementById( id ) != null) {
+		var value = parseInt(document.getElementById( id ).value, 10);
+		value = isNaN(value) ? 0 : value;
+		value++;
+		console.log(value);
+		document.getElementById( id ).value = value;
+	} else {
+		console.log("Couldn't find it.");
+	}
+}
